@@ -27,7 +27,7 @@ const responseCount = document.querySelector('#response-count');
 const exportButton = document.querySelector('#export-responses');
 const storageKey = 'vitalGourmetResponses';
 // Pega aquí la URL de implementación de tu aplicación web de Google Apps Script.
-const GOOGLE_SHEETS_WEB_APP_URL = '';
+const GOOGLE_SHEETS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbx7DsP0dUdRyXHIQdIujjFXB23EkoqiJUrszzVSyHjxKhT5emBwoD5m6dNiGhJP03JdTA/exec';
 
 function getResponses() {
   try {
